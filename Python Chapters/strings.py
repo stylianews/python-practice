@@ -7,7 +7,7 @@ print(greeting + ' ' + name)
 
 age = 24
 print(age)
-print(type(name + age))
+#print(type(name + age))
 print(type(greeting))
 print(type(age))
 # type describes the type of information we are using
