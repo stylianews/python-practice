@@ -20,5 +20,5 @@ asidjasod"""
 print(anotherSplit)
 
 
-#If i ned to use \r or \t in a string we use another \ before the \t \n or use raw strings r""
+#If I need to use \r or \t in a string we use another \ before the \t \n or use raw strings r""
 
