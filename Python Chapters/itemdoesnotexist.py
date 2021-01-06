@@ -16,3 +16,13 @@ if found_at is not None:
     print("Item found at position {}".format(int(found_at)+1))
 else:
     print("{} not found in the list".format(item_to_find))
+
+print("-"*10)
+
+if item_to_find in shopping_list:
+    found_at = shopping_list.index(item_to_find)
+# Counting starts at zero, so if we need to find the position in the list we need to add 1
+if found_at is not None:
+    print("Item found at position {}".format(int(found_at)+1))
+else:
+    print("{} not found in the list".format(item_to_find))
