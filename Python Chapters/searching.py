@@ -11,4 +11,5 @@ for index in range(len(shopping_list)):
     if shopping_list[index] == item_to_find:
         found_at = index
         break
+# Counting starts at zero, so if we need to find the position in the list we need to add 1
 print("Item found at position {}".format(int(found_at)+1))
