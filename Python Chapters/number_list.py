@@ -16,3 +16,5 @@ print("mississippi".count("s"))
 print("mississippi".count("iss"))
 # No re-use
 print("mississippi".count("issi"))
+
+print([2, 3, 5, 2, 3])
